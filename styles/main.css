@@ -16,20 +16,39 @@ button {
   display: inline-block;
   height: 400px;
   width: 400px;
-  padding: 50px;
-  margin: 50px auto;
   border: 1px solid gray;
   border-radius: 10px;
   font-size:80px;
+  text-align: center;
+  line-height: 400px;
 }
 
 #dice2 {
   display: inline-block;
   height: 400px;
   width: 400px;
-  padding: 50px;
-  margin: 50px auto;
   border: 1px solid gray;
   border-radius: 10px;
   font-size:80px;
+  text-align: center;
+  line-height: 400px;
+}
+
+.result_1{
+ background: url('../images/inverted-dice-1.svg') no-repeat;
+}
+.result_2{
+ background: url('../images/inverted-dice-2.svg') no-repeat;
+}
+.result_3{
+ background: url('../images/inverted-dice-3.svg') no-repeat;
+}
+.result_4{
+ background: url('../images/inverted-dice-4.svg') no-repeat;
+}
+.result_5{
+ background: url('../images/inverted-dice-5.svg') no-repeat;
+}
+.result_6{
+ background: url('../images/inverted-dice-6.svg') no-repeat;
 }
