@@ -31,9 +31,12 @@ function printNumber(number1, number2) {
 let button = document.querySelector('button');
 
 button.addEventListener('click', function(event) {
+
 	event.preventDefault();
 
 	let result1 = dieOne.roll();
 	let result2 = dieTwo.roll();
 	printNumber(result1, result2);
 });
+
+printNumber(dieOne.value, dieTwo.value);
