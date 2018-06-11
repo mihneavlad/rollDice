@@ -7,10 +7,11 @@ button {
   border-radius: 6px;
   border: none;
   color: rgb(255, 255, 255);
-  padding: 10px;
   text-transform: uppercase;
   width: 200px;
   cursor: pointer;
+  display: block;
+  margin: auto;
 }
 #dice1 {
   display: inline-block;
@@ -32,23 +33,4 @@ button {
   font-size:80px;
   text-align: center;
   line-height: 400px;
-}
-
-.result_1{
- background: url('../images/inverted-dice-1.svg') no-repeat;
-}
-.result_2{
- background: url('../images/inverted-dice-2.svg') no-repeat;
-}
-.result_3{
- background: url('../images/inverted-dice-3.svg') no-repeat;
-}
-.result_4{
- background: url('../images/inverted-dice-4.svg') no-repeat;
-}
-.result_5{
- background: url('../images/inverted-dice-5.svg') no-repeat;
-}
-.result_6{
- background: url('../images/inverted-dice-6.svg') no-repeat;
 }

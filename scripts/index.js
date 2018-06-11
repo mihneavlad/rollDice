@@ -20,7 +20,6 @@ let dieTwo = {
 	}
 };
 
-
 function printNumber(number1, number2) {
 
 	let value1 = document.querySelector('#dice1');
